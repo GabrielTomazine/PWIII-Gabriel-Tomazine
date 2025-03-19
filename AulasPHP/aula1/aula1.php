@@ -63,10 +63,14 @@
 
     echo "<br><br><br><br>";
     
-    echo "5-) ";
+    echo "6-) ";
 
-    $val8 = 200;
-    
+    $produto = 50.00;
+    $result6 = ($produto / 100) * 7;
+    $valfinal = $produto - $result6;
+
+    echo "O valor original do produto: ",$produto, " valor do desconto de 7%: ", $result6, " valor com o desconto: ", $valfinal;
+
     ?>
 
 </body>
